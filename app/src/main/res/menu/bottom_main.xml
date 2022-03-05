@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_wallet"
+        android:icon="@drawable/wallet"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/bottom_plans"
+        android:icon="@drawable/plans"
+        android:title="Plans" />
+
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="" />
+
+
+    <item
+        android:id="@+id/bottom_payments"
+        android:icon="@drawable/payments"
+        android:title="Recharge" />
+
+    <item
+        android:id="@+id/bottom_more"
+        android:icon="@drawable/more"
+        android:title="More" />
+
+</menu>

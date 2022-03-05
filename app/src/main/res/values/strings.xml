@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SpeedPe</string>
+    <string name="map_key" translatable="false">AIzaSyDki2mEyOMu-rQPB-Ii2guL23dSye860io</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="quit_application">Are you sure you want to Quit Application?</string>
+    <string name="menu_home">Plans</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="connect_to_internet_again">Kindly connect to the internet and try again</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_home">Plans</string>
+    <string name="track_rfi">Track RFI</string>
+    <string name="saved_rfi">Saved RFI</string>
+    <string name="applied_rfi">Applied RFI</string>
+    <string name="inspectionlist">Inspection List</string>
+    <string name="about_us">About Us</string>
+    <string name="notification">Notification</string>
+    <string name="log_out">Logout</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="wednesday_26th_january">Wednesday 26th January</string>
+    <string name="welcome">Welcome</string>
+    <string name="razor_pay_key">rzp_live_9gz5iT8LYZxjEY</string>
+
+
+    <string name="title_dashb">Dashboard</string>
+    <string name="my_cart">My Cart</string>
+    <string name="delete">DELETE</string>
+    <string name="menu_startup">Razorpay</string>
+    <string name="menu_create_startup">Create a startup</string>
+
+
+</resources>

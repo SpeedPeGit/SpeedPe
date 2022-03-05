@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.wallet.speedpe.Activity.FAQ">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:isScrollContainer="false">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="FAQ"
+                    android:fontFamily="@font/opensansbold"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/dark_yellow"
+                    android:textAlignment="center"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. The transaction failed but the amount got deducted from the bank account"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Banks usually take up to 3 business days to add money back to your account. Please wait for your bank to complete the reversal. Refer to the bank account statement to verify if your transaction has been reversed."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. The transaction is processed/successful but the amount was not added to the recipient bank account"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Wait for 3 business days, within which the bank should add the money to the recipient account or reverse the same to your account. If money is not added within 3 business days, please reach out to us."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. The merchant transaction is successful/processing but the payment was not updated"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Reach out to the merchant and also to your bank for filing a charge back. Speedpe is only a payment platform."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. The merchant transaction failed but the payment was not updated."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="The issue will be resolved within 3 business days (usually within hours) from the date of payment initiation. The money will be transferred  to your bank account during this period. Please check your bank statement to verify the same."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. The bill payment transaction is settled/processing but the payment was not updated"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 1: See how long it takes to pay the biller"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="  1. Find your payment and check the status."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="  2. If the status says 'Success', you’ll see how many days it might take for the money to reach the biller."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 2: Wait, then check your bill status"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="After the stated number of days, check with your biller to confirm that the money has been paid."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 3: Let us know if the biller hasn't received the money"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="  1. Open the payment that you want to report."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="  2. Tap Raise Dispute."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:layout_marginBottom="20dp"
+                    android:text="  3. Follow the steps on the screen."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. The bill payment transaction failed but the payment was not updated."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="The amount will be reversed to your account within 3 business days (usually within hours) after payment."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. The reward is pending/successful, when will the amount be added to the bank account?"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Wait for 7 business days for the reward to reflect in your bank account. Also, please remember not to change your form of payment in Speedpe during this period."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. You did not receive the cash back for referral in Speedpe."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 1. Check your eligibility\nMake sure that you:"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="    • have earned fewer than 50 referral rewards. You can earn up to 50.\n    • sent the correct referral link or referral code."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure that the person you invited:"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="    • signed up using your referral link or referral code.\n    • didn’t sign up using a referral link or code that someone else shared with them.\n    • hasn’t created a Speedpe account before.\n    • has made a successful first payment."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 2. Check your bank account"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="At times, the reward does not show in the app but you can see a credit in your account. Please look for any credits."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. Cash back was received but the amount has not been credited in my account in Speedpe."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="If your reward is successful, check your bank statement for a credit entry. In case you don’t see the credit please wait for 7 business days.\nIf your reward is pending, check your bank statement for a credit entry. In case you don’t see the credit please wait for 15 business days.\nMake sure to add a valid bank account in your Speedpe for us to credit the amount."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10. You are unable to do any transaction in Speedpe."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Please use the following steps to troubleshoot the issue and try again:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="    1. If you’re on WiFi, turn on mobile data, or a different internet connection.\n    2. Send a smaller amount of money.\n    3. Use a different method. For example, if you are using the recent contacts icon on the home screen to send money, try sending the money by tapping “New” and entering phone number or UPI ID.\n    4. Check if the recipient has linked their Bank Account to Speedpe.\n    5. Check if you’ve reached your transaction limit"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11. You are unable to add bank account in Speedpe."
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="You can add a bank account to your Speedpe by following the steps below:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="    1. Check to make sure that your bank works with UPI. If it doesn’t, your bank account won’t work with Speedpe.\n   2. Open Speedpe.\n    3. Note: Make sure that you're using the latest version of the app. If you're not sure, try to update the app.\n    4. At the top right, tap your photo -> Bank account.\n    5. Tap Add bank account.\n    6. Choose your bank from the list. If you don’t see your bank, it doesn’t work with Speedpe yet.\n    7. Note: You might need to give Speedpe permission to send a verification SMS to your bank.\n    8. If you have an existing UPI PIN, you'll be asked to enter it.\n        ◦ If you don’t remember your PIN, tap Forgot PIN and follow the instructions.\n        ◦ If you don't have a UPI PIN, enter your debit card information."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12. How do I report fraud?"
+                    android:fontFamily="@font/opensanssemibold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="If you suspect fraud or want to issue instructions to stop payment, or want to report any fraudulent transactions in your account, we suggest the following:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="    1. Please get in touch with your respective bank for immediate support and guidance. Banks have 24 x 7 support and you will be able to report a fraudulent transaction even during non-working hours.\n    2. We suggest you reach out to the cyber crime police department in your local jurisdiction.\n    3. Please use our Customer Support Complaint System to report it to us. Your request will be evaluated against our policies and we will review and take action as appropriate."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:fontFamily="@font/opensansregular"
+                    android:text="Please note that a UPI PIN is required to be entered on the Speedpe App to send money and not to receive money. Fraudsters may initiate a request making you believe that you will receive money by entering your PIN. Please be careful and ignore/reject such requests."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/faq_fab_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            app:backgroundTint="@color/dark_yellow"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            android:src="@drawable/back"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

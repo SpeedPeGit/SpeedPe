@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/wa_inner_img"
+            android:src="@drawable/icon"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wa_leftTop"
+                android:layout_gravity="left"
+                android:fontFamily="@font/opensansbold"
+                android:text="Bunk Name"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wa_leftBottom"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/opensansregular"
+                android:text="14th March 2021"
+                android:textColor="@color/grey_text_light"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wa_rightTop"
+                android:layout_gravity="right"
+                android:fontFamily="@font/opensansbold"
+                android:text="500.10"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wa_rightBottom"
+                android:layout_gravity="center_vertical|right"
+                android:fontFamily="@font/opensansregular"
+                android:text="14th March 2021"
+                android:textColor="@color/date_color"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3700B3</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="basecolor_light">#003248</color>
+    <color name="crd_bck">#003C56</color>
+    <color name="bodycolor">#003248</color>
+    <color name="txtblue">#80003248</color>
+    <color name="bk_blue">#002333</color>
+    <color name="grey">#BEBEBE</color>
+
+    <color name="darkgrey">#858585</color>
+    <color name="light_silver">#f5f6fb</color>
+
+    <color name="black">#000000</color>
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+
+
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+    <color name="bg_row_background">#fa315b</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash">#fcac1f</color>
+    <color name="main_bckg_clr">#ff0000 </color>
+    <color name="btn_bckg_color">#0b7588</color>
+    <color name="global_pageant_color">#205B81</color>
+    <color name="grey_text_light">#CECECE</color>
+    <color name="screen_bckg_color">#F9F9F9</color>
+    <color name="signUpText">#215C82</color>
+    <color name="drawerBackGndColor">#235A7E</color>
+    <color name="homeCellBckg">#F3F3F3</color>
+    <color name="profile_heading_color">#747474</color>
+    <color name="date_color">#8B8B8B</color>
+    <color name="dark_yellow">#FFA500</color>
+    <color name="dark_green">#008000</color>
+    <color name="dark_red">#F44336</color>
+    <color name="full_red">#FF0000</color>
+    <color name="light_red">#FFCCCB</color>
+    <color name="light_green">#E6F7E5</color>
+    <color name="light_blue">#E5F0F9</color>
+    <color name="date_status">#FCFCFC</color>
+    <color name="rfi_desc_heading">#A2A2A2</color>
+    <color name="upload_rfi_bckg">#306284</color>
+    <color name="about_heading_color">#09507E</color>
+    <color name="exp_bckgnd">#F8F8F8</color>
+    <color name="about_text_color">#2D2D2D</color>
+    <color name="light_yellow">#ffe4ae</color>
+    <color name="screen_bckgnd">#eeedf2</color>
+    <color name="menu_bckgnd">#dcd6cf</color>
+    <color name="dark_brown">#654321</color>
+    <color name="light_brown">#C4A484</color>
+    <color name="dark_blue">#009ACD</color>
+    <color name="plight_blue">#BFEFFF</color>
+</resources>
